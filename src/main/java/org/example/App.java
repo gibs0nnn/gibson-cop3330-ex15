@@ -12,17 +12,18 @@ public class App
     public static void main( String[] args )
     {
         Scanner scanner = new Scanner(System.in);
+        //Pre-set Password
         String myPassword = "q13f4";
 
-        //User Prompt
+        //Input
         System.out.print("What is the password? ");
         String password = scanner.next();
 
-        //Condition and Display
+        //Output
         if(myPassword.contentEquals(password)) {
-            System.out.println("Welcome");
+            System.out.println("Welcome!");
         } else {
-            System.out.println("I don't know you");
+            System.out.println("I don't know you.");
         }
     }
 }
